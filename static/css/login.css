@@ -1,0 +1,75 @@
+.getuserinfo-shade{
+	width: 100%;height: 100%;position: fixed;z-index: 900;top: 0px;left: 0px;background-color: #0000008c;
+}
+
+.getuserinfo{
+	z-index: 105;
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+    position: fixed;
+    top: 25%;
+    left: calc(10% - 10px);
+    padding: 10px;
+    border-radius: 10px;
+}
+.getuserinfo image{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.bottom-but image{
+	height: 20px;
+	width: 20px;
+	display: flex;
+}
+.getuserinfo .avatarUrl{
+    width: 100px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+	font-size: 14px;
+    background-color: #025d88;
+    color: #fff;
+	padding: inherit;
+	position: absolute;
+	right: 10%;
+	height: 40px;
+	top: 15px;
+}
+.getuserinfo .avatarUrl:after{border:none}
+.getuserinfo .nickname{
+	margin: 5px 0px;
+	height: 35px;
+	padding: 3px;
+	font-size: 14px;
+	flex: 1;
+	
+}
+.getuserinfo  .name-title{
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+}
+	.but{
+	    height: 40px;
+	    width: 80%;
+	    background-color: #025d88;
+	    color: #fff;
+	    justify-content: center;
+	    flex-direction: column;
+	    display: flex;
+		margin-top: 10px ;
+		font-size: 14px;
+		transition: transition(-50%,-50%);
+	}
+	.border-bottom{
+		border-bottom: solid 1px #0000001a;
+		padding: 5px;
+		position: relative;
+		flex: 1;
+		justify-content: center;
+		flex-direction: column;
+	}
+.flex{display:flex}

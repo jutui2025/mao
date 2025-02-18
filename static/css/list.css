@@ -1,0 +1,128 @@
+.type{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	font-size: 26rpx;
+	border-top-left-radius: 40rpx;
+	height: 50rpx;
+	width: 120rpx;
+	text-align: center;
+	justify-content: center;
+}
+.title{
+    height: 25px;
+    border-bottom: solid 1px #e4e4e4;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 18px;
+	display: flex;
+	font-variant: all-small-caps;
+}
+.title .color{
+	height: 20px;
+	width: 2px;
+	background-color: #D42266;
+	margin: auto 0px;
+	margin-right: 5px;
+}
+.bottom-box{
+	height: 30px;
+	border-top: solid 1px #e4e4e4;
+	margin-top: 5px;
+	padding: 5px;
+	display: flex;
+}
+.bottom-box .but{
+	background-color: #D42266;
+	color: #f7f7f7;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 16px;
+	/* font-weight: 600; */
+	position: absolute;
+	right: 10px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0px 15px;
+}
+.box{
+	padding: 5px;
+    width: calc(100% - 10px);
+    /* height: calc(100% - 10px); */
+    position: absolute;
+    overflow-x: hidden;
+    background: #F1F4F6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -51px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+	/* height: calc(100% - 200px); */
+	/* <view class="speak_window" style="background-image: url('https://xiaokedou.online/admin/api/static/picture/exam_bg.gif');"> */
+}
+.active{
+	    position: relative;
+	    padding-bottom: 40px;
+}
+.active  .li {
+    width: calc(100% - 20px);
+    /* height: 80px; */
+    background-size: 100%;
+    margin-bottom: 10px;
+    /* display: flex; */
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    /* border: solid 1px #cecdcd; */
+    /* box-shadow: 0px 2px 2px 0px #0000006e; */
+    background-color: #ffffff;
+    padding: 0px 10px;
+}
+.theme_img{
+	width: 50%;height: 7em;
+}
+.active .li .r {
+    width: 50%;
+    padding: 0px 5px 5px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #ffd40000;
+	border-radius: 10px;
+}
+
+
+.active .li .r .use .but {
+	flex-shrink: 0;
+    height: 25px;
+    line-height: 1px;
+    font-size: 14px;
+    color: #fff;
+    background: #01bb75;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+	text-align: center;
+	    width: 40px;
+}
+.font12{
+	display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #666666;
+	margin: 10px 3px;
+	white-space: break-spaces;
+}
+.font12 image{
+	width:20px;height: 20px;
+	margin-right: 5px;
+}
+

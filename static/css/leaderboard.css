@@ -1,0 +1,39 @@
+
+.leaderboard{
+	/* position: absolute; */
+	position: fixed;
+	height: 50%;
+	bottom: 0px;
+	padding: 10px;
+	padding-bottom: 15px;
+	width: calc(100% - 20px);
+	background-color: #fff;
+	border-radius: 10px;
+	z-index: 100;
+	min-height: 200px;
+}
+.leaderboard  .top{
+	width: 20px;
+	height: 20px;
+}
+.leaderboard  image {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -6px;
+}
+
+.leaderboard  .image {
+    border: 1px solid #333;
+}
+.leaderboard  .name {
+    margin-top: 4px;
+    color: navy;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.leaderboard .rank {
+    color: #fe6c7e;
+    font-weight: 500;
+}

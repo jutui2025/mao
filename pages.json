@@ -1,0 +1,107 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/list",
+			"style": {
+				"navigationBarTitleText": "活动列表",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				"disableScroll": true,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/creation",
+			"style": {
+				"navigationBarTitleText": "创建活动",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/map",
+			"style": {
+				"navigationBarTitleText": "位置选择",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/theme_info",
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/camera",
+			"style": {
+				"navigationBarTitleText": "识别二维码",
+				"enablePullDownRefresh": false,
+				"disableScroll": true,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/info",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/record",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"color": "#8F8F94",
+		"selectedColor": "#0186ff",
+		"list": [{
+				"pagePath": "pages/list",
+				"iconPath": "static/img/tab-index.png",
+				"selectedIconPath": "static/img/tab-index1.png",
+				"text": "活动列表"
+			},
+			// {
+			// 	"pagePath": "pages/creation",
+			// 	"iconPath": "static/img/tab-fabu.png",
+			// 	"selectedIconPath": "static/img/tab-fabu1.png",
+			// 	"text": "发布活动"
+			// },
+			{
+				"pagePath": "pages/info",
+				"iconPath": "static/img/tab-info.png",
+				"selectedIconPath": "static/img/tab-info1.png",
+				"text": "个人中心"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "/pages/theme_info", //启动页面，必选
+				"query": "theme_id=01c1b457e3eead2c0e803fc11f2d8f84" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
